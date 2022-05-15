@@ -1,0 +1,25 @@
+.typewriter {
+    color: green;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    /*blinking carret at the ned*/
+    display: inline-block;
+    border-right: 0.15em solid green;
+    animation:
+        blink-caret .75s step-end infinite;
+}
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: green;
+    }
+}
