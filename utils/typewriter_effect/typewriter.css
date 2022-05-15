@@ -1,10 +1,11 @@
-.typewriter {
+.typewriter-content {
     color: green;
     font-family: monospace;
     font-weight: bold;
     font-size: large;
-    /*blinking carret at the ned*/
-    display: inline-block;
+}
+
+.typewriter-blinker {
     border-right: 0.15em solid green;
     animation:
         blink-caret .75s step-end infinite;
