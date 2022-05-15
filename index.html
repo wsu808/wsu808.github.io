@@ -1,1 +1,131 @@
-Hellow Cruel World
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>&#9888; Warning! &#9888;</title>
+        <!--link rel="stylesheet" href="assets/css/styles.css"/-->
+        
+        <style>
+            #console {
+                color:green;
+                font-family:monospace;
+                font-weight: bold;
+                font-size: large;
+                text-align: center;
+                /*center vertically*/
+                position: absolute;
+                top: 50%;
+                left: 25%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
+            #blog {
+                position: absolute;
+                top: 50%;
+                right: 10%;
+                -ms-transform: translate(0%, -50%);
+                transform: translate(0%, -50%);
+                width:420px; 
+                height:400px;
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background: black;
+                color: white;    
+            }
+
+            canvas {
+                display:block;
+            }
+
+            canvas#c {
+                z-index:-1;
+                position: absolute;
+            }
+
+            .bottombar {
+                font-weight:bold;
+                color:white;
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap-reverse;
+                justify-content:center;
+                width: 100%;
+                position:fixed;
+                bottom:0;
+                left:0;
+            }
+
+            .bottombar > div {
+                border: 2px groove white;
+                width: 19.6%;
+                min-width:250px;
+                height:30px;
+                text-align:center;
+                padding-top:10px;
+            }
+
+            .bottombar > div > a {
+                color:white;
+            }
+
+        </style>
+
+    </head>
+
+    <body onload="typeWriter()">
+
+        <canvas id="c"></canvas>
+
+
+
+        
+        <div id="console" class="typewriter" onclick="document.getElementById('console').style.display='none'">
+            <p id="typing"></p>
+        </div>
+
+        <embed id="blog" src="https://write.as/wasu/">
+        
+        <!-- Load external JavaScript -->
+        <script src="matrix.js"></script>
+        <!--script src="typewriter.js"></script-->
+
+
+
+        <div class="bottombar"> 
+            <div><a href="ninjago.html">Ninjago Chronology</a></div>
+            <div>bbb</div>
+            <div><a href="PreNotes_v4.html">PreNotes format</a></div>
+            <div><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
+            <div><a href="https://makao-party.5v.pl/" target="_blank">Partyjne Makao</a></div>
+            
+        </div>
+
+        
+
+        <script>
+            var i = 0;
+            var txt = 'Zostałeś stworzony, By chronić słabszych od siebie. Twoje wybory Ukształtują naszą przyszłość.';
+            var speed = 100;
+
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("typing").innerHTML += txt.charAt(i);
+                    if (i==19||i==50||i==63) {document.getElementById("typing").innerHTML += '<br>';}
+                    if (i==50) {document.getElementById("typing").innerHTML += '<br>';}
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
+        
+    </body>
+
+</html>
