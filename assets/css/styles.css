@@ -1,3 +1,4 @@
+/*CSS for index.html*/
 * {
     margin: 0;
     padding: 0;
@@ -43,8 +44,8 @@ canvas#c {/*for matrix effect*/
 
 @media screen and (max-width: 1200px) {
     .flex-container>div>iframe {
-        width: 80vw;
-        height: 80vw;
+        width: 90vw;
+        height: 90vw;
     }
 }
 
@@ -53,6 +54,7 @@ iframe {
 }
 
 .bottombar {
+    display: none;/*//++*/
     font-weight: bold;
     color: white;
     display: flex;
