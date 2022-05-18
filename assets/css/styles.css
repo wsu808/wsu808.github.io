@@ -1,7 +1,79 @@
-/* Place your CSS styles in this file */
+* {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
 
-h1 {
+canvas {
+    display: block;
+}
+
+canvas#c {/*for matrix effect*/
+    z-index: -1;
+    position: absolute;
+}
+
+.flex-container {
+    display: flex;
+    /*allow auto new lines*/
+    flex-wrap: wrap;
+    /*center horisontally with auto margin*/
+    justify-content: space-around; 
+    /*center vertically*/
+    align-items: center; 
+    /*spacind between lines*/
+    align-content: space-around;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container>div {
+    width: 600px;
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
+}
+
+.flex-container>div>iframe {
+    width: 50vw;
+    height: 50vw;
+    max-width: 600px;
+    max-height: 70vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-container>div>iframe {
+        width: 80vw;
+        height: 80vw;
+    }
+}
+
+iframe {
+    border: none;
+}
+
+.bottombar {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottombar>div {
+    border: 2px groove white;
+    width: 19.6%;
+    min-width: 250px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bottombar>div>a {
+    color: white;
 }
