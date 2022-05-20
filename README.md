@@ -1,1 +1,1 @@
-# [Open This Site](https://wsu808.github.io)
+# [GO TO: wsu808.github.io](https://wsu808.github.io)
