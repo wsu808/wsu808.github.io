@@ -1,1 +1,1 @@
-# [GO TO: `wsu808.github.io`](https://wsu808.github.io)
+# [`wsu808.github.io`](https://wsu808.github.io)
