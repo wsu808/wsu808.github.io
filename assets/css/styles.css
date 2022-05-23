@@ -71,19 +71,16 @@ iframe {
 }
 
 #menu div {
-    border: 2px groove white;
-    width: 19.6%;
-    min-width: 250px;
-    height: 30px;
-    text-align: center;
+    border: 2px dotted white;
     padding-top: 10px;
 }
-a{
+
+#menu a{
     color: white;
     text-decoration: none;
 }
 
-a:link {
+/*a:link {
   color: inherit;
 }
 
@@ -97,4 +94,4 @@ a:hover {
 
 a:active {
   color: inherit;
-}
+}*/
