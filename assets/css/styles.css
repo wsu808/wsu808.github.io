@@ -78,6 +78,10 @@ iframe {
     text-align: center;
     padding-top: 10px;
 }
+.menu>div>a{
+    color: white;
+    text-decoration: none;
+}
 
 .menu>div>a:link {
   color: inherit;
