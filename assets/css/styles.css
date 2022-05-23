@@ -70,7 +70,7 @@ iframe {
     left: 0;
 }
 
-#menu>div {
+#menu div {
     border: 2px groove white;
     width: 19.6%;
     min-width: 250px;
@@ -78,23 +78,23 @@ iframe {
     text-align: center;
     padding-top: 10px;
 }
-#menu>div>a{
+a{
     color: white;
     text-decoration: none;
 }
 
-#menu>div>a:link {
+a:link {
   color: inherit;
 }
 
-#menu>div>a:visited {
+a:visited {
   color: inherit;
 }
 
-#menu>div>a:hover {
+a:hover {
   color: inherit;
 }
 
-#menu>div>a:active {
+a:active {
   color: inherit;
 }
