@@ -23,22 +23,27 @@
     </div>  
 
 
-    <div class="bottombar">
-        <div><a href="ninjago.html">Ninjago Chronology</a></div>
-        <div>bbb</div>
-        <div><a href="PreNotes_v4.html">PreNotes format</a></div>
-        <div><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
-        <div><a href="https://makao-party.5v.pl/" target="_blank">Partyjne Makao</a></div>
-
+    <div id="menu">
+        <div id="m1"><a href="ninjago.html">Ninjago Chronology</a></div>
+        <div id="m2">bbb</div>
+        <div id="m3"><a href="PreNotes_v4.html">PreNotes format</a></div>
+        <div id="m4"><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
+        <div id="m5"><a href=https://wasu-code.github.io/makao_zasady/" target="_blank">Partyjne Makao</a></div>
     </div>
 
     <!-- Load external JavaScript -->
     <script src="assets/js/matrix.js"></script>
     <script src="utils/typewriter_effect/typewriter.js"></script>
+    <script src="assets/js/bounceMe.js"></script>
     <!-- Run certain scripts -->
     <script>
         window.addEventListener("DOMContentLoaded", () => 
-            typeWriter("console", "Zostałeś stworzony,|By chronić słabszych od siebie.||Twoje wybory|Ukształtują naszą przyszłość.",100)
+            typeWriter("console", "Zostałeś stworzony,|By chronić słabszych od siebie.||Twoje wybory|Ukształtują naszą przyszłość.",100),
+            bounceIt("menu","m1"),
+            bounceIt("menu","m2",100,50),
+            bounceIt("menu","m3",50,400),
+            bounceIt("menu","m4",0,100),
+            bounceIt("menu","m5",400,400)
         );
     </script>
 </body>
