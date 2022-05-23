@@ -76,6 +76,9 @@ iframe {
 }
 
 #menu a{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
     text-decoration: none;
 }
 
