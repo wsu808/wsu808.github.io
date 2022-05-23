@@ -79,6 +79,18 @@ iframe {
     padding-top: 10px;
 }
 
-.menu>div>a {
-    color: rgba(0,0,0,0);
+.menu>div>a:link {
+  color: inherit;
+}
+
+.menu>div>a:visited {
+  color: inherit;
+}
+
+.menu>div>a:hover {
+  color: inherit;
+}
+
+.menu>div>a:active {
+  color: inherit;
 }
