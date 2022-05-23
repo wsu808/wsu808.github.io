@@ -79,7 +79,7 @@ iframe {
     text-decoration: none;
 }
 
-/*a:link {
+a:link {
   color: inherit;
 }
 
@@ -93,4 +93,4 @@ a:hover {
 
 a:active {
   color: inherit;
-}*/
+}
