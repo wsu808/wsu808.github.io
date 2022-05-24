@@ -31,6 +31,14 @@ function bounceIt(outer, inner, xPos=10, yPos=10, xSpd=2.5, ySpd=2.5) {
         innerframe.style.left = xPosition + "px";
         innerframe.style.top = yPosition + "px";
     }, 1000 / FPS);
+    
+    window.addEventListener("resize", () => {
+        xPosition = xPos;
+        yPosition = yPos;
+
+        outerframe.style.height = window.innerHeight + "px";
+        outerframe.style.width = window.innerWidth + "px";
+    });
 }
 
 function randomColor() {
