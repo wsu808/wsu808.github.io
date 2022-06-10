@@ -12,6 +12,22 @@
 <body>
     <canvas id="c"></canvas>
 
+    <nav class="burger-box">
+        <div id="burger" class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div id="burger-menu" class="burger-menu hidden">
+            <div><a href="ninjago.html">Ninjago Chronology</a></div>
+            <div><a href="PreNotes_v4.html">PreNotes format</a></div>
+            <div><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
+            <div><a href="https://wasu-code.github.io/makao_zasady">Partyjne Makao</a></div>
+        </div>
+        
+    </nav>
+
 
 
     <div class="flex-container">
@@ -23,27 +39,31 @@
     </div>  
 
 
-    <div id="menu">
+    <!--div id="menu">
         <div id="m1"><a href="ninjago.html">Ninjago Chronology</a></div>
         <div id="m2">bbb</div>
         <div id="m3"><a href="PreNotes_v4.html">PreNotes format</a></div>
         <div id="m4"><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
         <div id="m5"><a href="https://wasu-code.github.io/makao_zasady">Partyjne Makao</a></div>
-    </div>
+    </div-->
 
     <!-- Load external JavaScript -->
     <script src="assets/js/matrix.js"></script>
     <script src="utils/typewriter_effect/typewriter.js"></script>
-    <script src="assets/js/bounceMe.js"></script>
+    <!--script src="assets/js/bounceMe.js"></script-->
     <!-- Run certain scripts -->
     <script>
         window.addEventListener("DOMContentLoaded", () => 
-            typeWriter("console", "Zostałeś stworzony,|By chronić słabszych od siebie.||Twoje wybory|Ukształtują naszą przyszłość.",100),
+            typeWriter("console", "Zostałeś stworzony,|By chronić słabszych od siebie.||Twoje wybory|Ukształtują naszą przyszłość.",100)/*,
             bounceIt("menu","m1"),
             bounceIt("menu","m2",100,50),
             bounceIt("menu","m3",50,400),
             bounceIt("menu","m4",20,100),
-            bounceIt("menu","m5",45,400)
+            bounceIt("menu","m5",45,400)*/
+        );
+
+        document.getElementById('burger').addEventListener('click', () => 
+            document.getElementById('burger-menu').classList.toggle('hidden')
         );
     </script>
 </body>
