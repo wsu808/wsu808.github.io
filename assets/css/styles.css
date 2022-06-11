@@ -52,8 +52,9 @@ canvas#c {/*for matrix effect*/
     }
 }
 
-iframe {
+iframe#blog {
     border: none;
+    color-scheme: dark;
 }
 
 .bottombar {
@@ -156,4 +157,5 @@ a:active {
     position: fixed;
     width: 100vw;
     z-index: 20;
+    color-scheme: only light;
 }
