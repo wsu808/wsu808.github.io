@@ -1,0 +1,32 @@
+<head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		#code {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+  <input type="number" id="code" />
+  <script>
+	let h3 = document.getElementById('code');
+	h3.focus();
+	document.addEventListener('dblclick',openurl);
+	document.addEventListener('keypress', function (e) {
+		if (e.key === 'Enter') {
+			openurl();
+		}
+	});
+
+	function openurl() {
+		let url = 'https://3hentai.net/d/' + h3.value;
+		window.open(url, '_blank');
+	}
+  </script>
+</body>
