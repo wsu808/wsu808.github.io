@@ -12,7 +12,8 @@ If you want to create file with links by yourself follow instructions in [this p
 Some sites post comic and have a certain naming convention. You can:
 1. Use **link grabber** function in [Jdownloader](https://jdownloader.org/) to obtain them.  
     > It's located in bottom left corner of program's window
-2. Then sort by name and choose links that actually are part of the comic. 
+2. Then **sort by name** and choose links that actually are part of the comic. 
+    > You can also sort **by size** first (useful when site provide both low and high quality or thumbnails with the same name) and delete unwanted files
 3. [One-time configuration] In right-click menu choose `Manage Settings` add `Copy` field and choose to copy URL only
 4. Select aplicable links and right-click them. 
 5. Select copy and then paste them in your file
