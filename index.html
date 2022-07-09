@@ -71,9 +71,20 @@
     </script>
     <script>
         function switch2blog() {
-            document.getElementById('blog-img').style.display = 'none';
-            document.getElementById('blog').style.display = 'block';
+            let img = document.getElementById('blog-img');
+            img.style.transform = 'rotateY(-90deg)';
+            img.style.transition = '0.5s';
+            setTimeout(function(){
+                img.style.display = 'none';
+                let blog = document.getElementById('blog')
+                blog.style.display = 'block';
+                setTimeout(function(){
+                    blog.style.transition = '0.5s';
+                    blog.style.transform = 'rotateY(0deg)';
+                },10)
+            },500);
         }
+        
     </script>
 </body>
 
