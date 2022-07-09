@@ -36,6 +36,7 @@
         <div id="console" onclick="document.getElementById('console').style.display='none'"></div>
 
         <div>
+            <img id="blog-img" ondblclick="switch2blog()" src="assets/img/Bad_Space.jpg"/>
             <iframe id="blog" src="https://write.as/wasu/"></iframe>
         </div>
     </div>  
@@ -67,6 +68,12 @@
         document.getElementById('burger').addEventListener('click', () => 
             document.getElementById('burger-menu').classList.toggle('hidden')
         );
+    </script>
+    <script>
+        function switch2blog() {
+            document.getElementById('blog-img').style.display = 'none';
+            document.getElementById('blog').style.display = 'block';
+        }
     </script>
 </body>
 
