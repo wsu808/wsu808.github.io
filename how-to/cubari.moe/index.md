@@ -28,6 +28,6 @@ Here we will be using cubari's proxy option
 	`https://imgur.com/a/x67SjZ5`
 2. Change the link to:  
 	`/proxy/api/imgur/chapter/x67SjZ5/`  
-		`[i]` Mind that the characters sequence at the end is you unique album identifier  
-		`/!\` Don't forget the slash `/` at the very end of the line
+		`ℹ️` Mind that the characters sequence at the end is you unique album identifier  
+		`⚠️` Don't forget the slash `/` at the very end of the line
 3. Check the `✅ Proxy` checkbox and paste the link like the one above into the input field below `✅ Proxy` label.
