@@ -27,7 +27,7 @@ canvas#c {/*for matrix effect*/
     /*center vertically*/
     align-items: center; 
     /*spacind between lines*/
-    align-content: space-around;
+    align-content: space-evenly;
 
     width: 100vw;
     height: 100vh;
