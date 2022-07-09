@@ -45,6 +45,7 @@ canvas#c {/*for matrix effect*/
     max-height: 70vh;
     display: none;
     transform: rotateY(90deg);
+    margin: auto;
 }
 
 .flex-container>div>img {
