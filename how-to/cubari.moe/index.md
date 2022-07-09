@@ -18,3 +18,16 @@ Some sites post comic and have a certain naming convention. You can:
 3. [One-time configuration] In right-click menu choose `Manage Settings` add `Copy` field and choose to copy **URL only**.
 4. Select aplicable links and right-click them. 
 5. Select copy and then paste them in your file.
+
+---
+
+## How to create chapter from Imgur album
+Here we will be using cubari's proxy option
+
+1. Let's assume we have an imgur link like:  
+	`https://imgur.com/a/x67SjZ5`
+2. Change the link to:  
+	`/proxy/api/imgur/chapter/x67SjZ5/`  
+		`[i]` Mind that the characters sequence at the end is you unique album identifier  
+		`/!\` Don't forget the slash `/` at the very end of the line
+3. Check the `✅ Proxy` checkbox and paste the link like the one above into the input field below `✅ Proxy` label.
