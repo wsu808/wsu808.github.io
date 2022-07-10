@@ -141,6 +141,13 @@ a:active {
     max-width: 90%;
     margin: 0px auto auto auto;
     padding-top: 3em;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);
 }
 
 .burger-menu div {
@@ -152,12 +159,11 @@ a:active {
     margin: 10px;
     padding: 0.5em;
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0);
-    border-radius: 0px;
+    /*background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.7px);
-    -webkit-backdrop-filter: blur(2.7px);
-    /*border: 1px solid rgba(241, 241, 241, 0.43);*/
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);*/
 }
 
 .burger-menu div a {
@@ -173,4 +179,20 @@ a:active {
     width: 100vw;
     z-index: 20;
     color-scheme: only light;
+}
+
+.border-gradient>div {
+    border: dotted;
+    border-width: 3px;
+    border-image-slice: 1;
+    animation-name: border-gradient-anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+   
+@keyframes border-gradient-anim {
+    0%{border-image-source: linear-gradient(90deg, rgba(0,0,0,0), magenta,yellow,red);}
+    30%{border-image-source: linear-gradient(180deg, rgba(0,0,0,0), magenta,blue,rgb(0,255,0));}
+    60%{border-image-source: linear-gradient(270deg, rgba(0,0,0,0), magenta,orange,blue);}
+    100%{border-image-source: linear-gradient(360deg, rgba(0,0,0,0), magenta,white,red);}
 }
