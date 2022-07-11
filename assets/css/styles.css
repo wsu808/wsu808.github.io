@@ -242,7 +242,7 @@ a:active {
 
 @media screen and (max-width: 1200px) {
     .bounce1 {
-        animation: bounceY 4s linear infinite alternate;
+        animation: bounceY 5s linear infinite alternate;
     }
 }
 
