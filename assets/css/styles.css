@@ -240,6 +240,12 @@ a:active {
     font-size: 2.5em;
 }
 
+@media screen and (max-width: 1200px) {
+    .bounce1 {
+        animation: bounceY 4s linear infinite alternate;
+    }
+}
+
 @keyframes bounceX {
     100% {width: 100vw;}
 }
