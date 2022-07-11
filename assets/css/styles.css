@@ -221,6 +221,11 @@ a:active {
     height: 0px;
 }
 
+.bouncing-inner>a:link { text-decoration: none; }
+.bouncing-inner>a:visited { text-decoration: none; }
+.bouncing-inner>a:hover { text-decoration: none; }
+.bouncing-inner>a:active { text-decoration: none; }
+
 .bounce1 {
     animation: bounceY 8s linear infinite alternate;
 
