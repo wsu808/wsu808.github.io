@@ -230,7 +230,7 @@ a:active {
     animation: bounceY 8s linear infinite alternate;
 
     /*optional*/
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 .bounce2 {
