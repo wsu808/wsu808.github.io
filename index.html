@@ -5,92 +5,96 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- page info -->
     <title>Skynet activation...</title>
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <!-- link stylesheets -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/menu-items.css" />
 </head>
 
 <body>
     <canvas id="c"></canvas>
 
-    <nav class="burger-box">
+    
+    <nav> <!--Navbar-->
+
         <div id="burger" class="burger">
             <div></div>
             <div></div>
             <div></div>
         </div>
 
-        <div id="burger-menu" class="burger-menu hidden border-gradient">
-            <div><a href="ninjago">Ninjago Chronology</a></div>
-            <div><a href="PreNotes_v4.html">PreNotes format</a></div>
-            <div><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
-            <div><a href="https://wasu-code.github.io/makao_zasady">Partyjne Makao</a></div>
-            <div><a href="https://wasu-code.github.io/randomizer/">Randomizer</a></div>
+        <div id="burger-box" class="burger-box hidden">
+            <div id="burger-menu" class="burger-menu">
+                <div class="bb"><a href="ninjago">Ninjago Chronology</a></div>
+                <div class="bb"><a href="PreNotes_v4.html">PreNotes format</a></div>
+                <div class="bb"><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
+                <div class="bb"><a href="https://wasu-code.github.io/makao_zasady">Partyjne Makao</a></div>
+                <div class="bb"><a href="https://wasu-code.github.io/randomizer/">Randomizer</a></div>
+            </div>
         </div>
-        
+
     </nav>
 
 
 
-    <div class="flex-container">
+    <div class="flex-container"> <!-- page content -->
         <div id="console" onclick="document.getElementById('console').style.display='none'"></div>
 
         <div>
-            <img id="blog-img" ondblclick="switch2blog()" src="assets/img/Bad_Space.jpg" title="Part of webcomic: Bad Space - Ch.5 Afterlife" alt="Bad Space webcomic - Ch.5 Afterlife: How badly has the brain WARPED, suffocated and self-harmed in its struggle to SURVIVE? That is the question." />
+            <img id="blog-img" ondblclick="switch2blog()" src="assets/img/Bad_Space.jpg"
+                title="Part of webcomic: Bad Space - Ch.5 Afterlife"
+                alt="Bad Space webcomic - Ch.5 Afterlife: How badly has the brain WARPED, suffocated and self-harmed in its struggle to SURVIVE? That is the question." />
             <iframe id="blog" src="https://write.as/wasu/"></iframe>
         </div>
-    </div>  
+    </div>
 
+
+
+    <!-- items bouncing over the screen -->
     <div class="bouncing-outer">
         <div class="bouncing-inner bounce1"><a href="http://bdsmtest.org/r/ZY2t2An7" target="_blank">&#4043;</a></div>
         <div class="bouncing-inner bounce2">🦅</div>
     </div>
 
-    <!--div id="menu">
-        <div id="m1"><a href="ninjago">Ninjago Chronology</a></div>
-        <div id="m2">bbb</div>
-        <div id="m3"><a href="PreNotes_v4.html">PreNotes format</a></div>
-        <div id="m4"><a href="https://53x.000webhostapp.com/układ_planów_okresowych.html">Plany</a></div>
-        <div id="m5"><a href="https://wasu-code.github.io/makao_zasady">Partyjne Makao</a></di>
-    </div-->
 
-    
+
+
+
+
 
     <!-- Load external JavaScript -->
     <script src="assets/js/matrix.js"></script>
     <script src="utils/typewriter_effect/typewriter.js"></script>
     <!--script src="assets/js/bounceMe.js"></script-->
-    <!-- Run certain scripts -->
-    <script>
-        window.addEventListener("DOMContentLoaded", () => 
-            typeWriter("console", "Zostałeś stworzony,|By chronić słabszych od siebie.||Twoje wybory|Ukształtują naszą przyszłość.",100)/*
-            bounceIt("menu","m1")},
-            bounceIt("menu","m2",100,50),
-            bounceIt("menu","m3",50,400),
-            bounceIt("menu","m4",20,100),
-            bounceIt("menu","m5",45,400)*/
+
+    <script> //Run certain scripts
+        window.addEventListener("DOMContentLoaded", () =>
+            typeWriter("console", "Zostałeś stworzony,|By chronić słabszych od siebie.||Twoje wybory|Ukształtują naszą przyszłość.", 100)
         );
 
-        document.getElementById('burger').addEventListener('click', () => 
-            document.getElementById('burger-menu').classList.toggle('hidden')
+        document.getElementById('burger').addEventListener('click', () =>
+            document.getElementById('burger-box').classList.toggle('hidden')
         );
     </script>
+
     <script>
         function switch2blog() {
             let img = document.getElementById('blog-img');
             img.style.transform = 'rotateY(-90deg)';
             img.style.transition = '0.5s';
-            setTimeout(function(){
+            setTimeout(function () {
                 img.style.display = 'none';
                 let blog = document.getElementById('blog')
                 blog.style.display = 'block';
-                setTimeout(function(){
+                setTimeout(function () {
                     blog.style.transition = '0.5s';
                     blog.style.transform = 'rotateY(0deg)';
-                },10)
-            },500);
+                }, 10)
+            }, 500);
         }
-        
+
     </script>
 </body>
 
