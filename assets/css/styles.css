@@ -5,9 +5,14 @@
     padding: 0;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     background: black;
     color: white;
+    overflow-y: hidden;
 }
 
 canvas {
@@ -15,7 +20,7 @@ canvas {
 }
 
 canvas#c {/*for matrix effect*/
-    z-index: -1;
+    z-index: -10;
     position: fixed;
 }
 
@@ -73,47 +78,10 @@ iframe#blog {
     color-scheme: dark;
 }
 
-.bottombar {
-    display: none;/*//++*/
-    /*display: flex;*/
-    font-weight: bold;
-    color: white;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-#menu div {
-    /*border: 2px dotted white;
-    padding-top: 10px;*/
-}
-
-#menu a{
-    text-align: center;
-    font-family: monospace;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:link {
-  color: inherit;
-}
-
-a:visited {
-  color: inherit;
-}
-
-a:hover {
-  color: inherit;
-}
-
-a:active {
-  color: inherit;
-}
+a:link {color: inherit;}
+a:visited {color: inherit;}
+a:hover {color: inherit;}
+a:active {color: inherit;}
 
 /*NAV*/
 .sticky {
@@ -123,8 +91,9 @@ a:active {
 .burger {
     float: right;
     margin: 1em;
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    right: 0;
+    z-index: 3;
 }
 
 .burger:hover {
@@ -137,11 +106,25 @@ a:active {
     border-top: 4px solid rgb(178, 178, 178);
 }
 
+
+
+.burger-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color-scheme: only light;
+    overflow-y: scroll;
+}
+
 .burger-menu {
     text-align: center;
     max-width: 90%;
     margin: 0px auto auto auto;
     padding-top: 3em;
+    position: relative;
 
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0);
@@ -157,8 +140,10 @@ a:active {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: red -2px 0, cyan 2px 0;
     color: white;
-    margin: 10px;
-    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*margin: 40px;*/
+    /*padding: 0.5em;*/
     /* From https://css.glass */
     /*background: rgba(255, 255, 255, 0);
     border-radius: 16px;
@@ -175,30 +160,6 @@ a:active {
     display: none;
 }
 
-.burger-box {
-    position: fixed;
-    width: 100vw;
-    z-index: 20;
-    color-scheme: only light;
-}
-
-.border-gradient>div {
-    border: dotted;
-    border-width: 3px;
-    border-image-slice: 1;
-    animation-name: border-gradient-anim;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-   
-@keyframes border-gradient-anim {
-    0%{border-image-source: linear-gradient(90deg, rgba(0,0,0,0), magenta,yellow,red);}
-    30%{border-image-source: linear-gradient(180deg, rgba(0,0,0,0), magenta,blue,rgb(0,255,0));}
-    60%{border-image-source: linear-gradient(270deg, rgba(0,0,0,0), magenta,orange,blue);}
-    100%{border-image-source: linear-gradient(360deg, rgba(0,0,0,0), magenta,white,red);}
-}
-
-
 /* Bouncing Menu BEGIN */
 .bouncing-outer {
     position: absolute;
@@ -208,7 +169,6 @@ a:active {
     width: 0px;
     height: 1em;
     animation: bounceX 6s linear infinite alternate;
-
     /*optional*/
     user-select: none;
 }
