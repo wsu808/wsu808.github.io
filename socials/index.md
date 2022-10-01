@@ -25,3 +25,9 @@
 
 
 
+<details><summary>Character List</summary>
+
+![Character Ststs](./character_list.svg)
+
+</details>
+
