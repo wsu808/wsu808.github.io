@@ -31,3 +31,8 @@ Here we will be using cubari's proxy option
 		`ℹ️` Mind that the characters sequence at the end is you unique album identifier  
 		`⚠️` Don't forget the slash `/` at the very end of the line
 3. Check the `✅ Proxy` checkbox and paste the link like the one above into the input field below `✅ Proxy` label.
+
+---
+
+## How to add text between pages
+If you need to add some short text before or after page use [placeholder.com](https://placeholder.com/) to easily insert image containing caption.
