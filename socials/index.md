@@ -13,5 +13,5 @@
 
 ---
 
-<h1 align="center" border="nome"><a href="https://myanimelist.net/profile/wasu-kun">MyAnimeList</a></h1>
-<p align="center">| Anime | Manga |</p>
+<h1 align="center"><a href="https://myanimelist.net/profile/wasu-kun">MyAnimeList</a></h1>
+<div align="center">| Anime | Manga |</div>
