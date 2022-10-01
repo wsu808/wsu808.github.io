@@ -1,0 +1,64 @@
+<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            @import url("https://fonts.googleapis.com/css2?family=Electrolize");
+            .bg {
+                background-color: #36AFFE;
+                color: white;
+                padding: 2px;
+                margin: 2px;
+            }
+
+            .content {
+                border: 7px double white; 
+                padding: 10px 10px 30px 10px;
+                font-weight: bold;
+                font-size: small;
+                font-family: 'Electrolize', sans-serif;
+            }
+
+            .content>h4 {
+                text-align: center;
+                font-size: medium;
+            }
+
+            .content>.line {
+                white-space: pre-wrap;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .controls {
+                float: right;
+                display: flex;
+                font-size: x-small;
+            }
+
+            .controls>span {
+                border: 1px solid white;
+                width: 1.4em;
+                height: 1.4em;
+                text-align: center;
+            }
+            </style>
+            <div class="bg" id="bg">
+                <div class="content">
+                    <span class="controls">
+                        <span>-</span>
+                        <span onclick="window.location.href = 'https://raw.githubusercontent.com/wsu808/wsu808.github.io/main/socials/character_list.svg';">❐</span>
+                        <span onclick="document.getElementById('bg').style.display = 'none';">X</span>
+                    </span>
+                    <h4>⟨SUMMARIZED CHARACTER LIST⟩</h4>
+                    <div class="line">NAME:  WASU</div>
+                    <div class="line">LEVEL:  21</div>
+                    <div class="line">CLASS:  IT STUDENT</div>
+                    <div class="line">EXCLUSIVE ATTRIBUTE:  DEGENERATE (COMMON)</div>
+                    <div class="line">SKILLS:   [BOOKMARK LV.1], [WEBDEV LV.10]</div>
+                    <div class="line">OVERALL EVALUATION:  THE AVERAGE STAT LEVEL OF THIS CHARACTER IS SO PATHETIC, THAT EVEN THE FACT THAT HE SURVIVED UNTIL NOW FEELS UNLIKELY.</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
