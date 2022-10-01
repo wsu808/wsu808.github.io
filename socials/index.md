@@ -23,7 +23,7 @@
 ---
 
 <h1 align=center><a href="https://write.as/wasu/">Write.as</a></h1>
-<p align=center>| Thoughts |</p>
+<p align=center><code>Thoughts</code></p>
 
 ---
 
