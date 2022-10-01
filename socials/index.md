@@ -23,13 +23,14 @@
 ---
 
 <h1 align=center><a href="https://write.as/wasu/">Write.as</a></h1>
-<p align=center><code>Thoughts</code></p>
+<p align=center>| Thoughts |</p>
 
 ---
 
 <h1 align=center><a href=""></a></h1>
 <p align=center></p>
 
+<font color="red"> Trakt </font>
 
 
 
