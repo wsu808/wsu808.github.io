@@ -30,7 +30,6 @@
 <h1 align=center><a href=""></a></h1>
 <p align=center></p>
 
-<font color="red"> Trakt </font>
 
 
 
