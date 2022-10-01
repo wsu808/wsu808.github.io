@@ -27,10 +27,17 @@
 
 ---
 
+<h1 align=center><a href="https://github.com/wsu808/wsu_cubari">Cubari.moe</a></h1>
+<p align=center>| WebComics |</p>
+
+---
+
 <h1 align=center><a href=""></a></h1>
 <p align=center></p>
 
 
+<a href="https://pbs.twimg.com/media/EzQAGKlVkAwFiFj?format=jpg&name=large">  
+<button>🎨"<i>Everyone lives in their own world</i>", Me, digital, 2021</button></a>
 
 
 
