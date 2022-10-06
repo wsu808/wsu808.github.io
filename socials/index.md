@@ -22,6 +22,11 @@
 
 ---
 
+<h1 align=center><a href="https://xayo.pl/wasutv">Streamers watched</a></h1>
+<p align=center>| Twitch |</p>
+
+---
+
 <h1 align=center><a href="https://write.as/wasu/">Write.as</a></h1>
 <p align=center>| Thoughts |</p>
 
@@ -35,13 +40,18 @@
 <h1 align=center><a href=""></a></h1>
 <p align=center></p>
 
-
-<a href="https://pbs.twimg.com/media/EzQAGKlVkAwFiFj?format=jpg&name=large">  
-<button>🎨"<i>Everyone lives in their own world</i>", Me, digital, 2021</button></a>
+<p align=center>
+<img width=350 src="https://pbs.twimg.com/media/EzQAGKlVkAwFiFj?format=jpg&name=large">  
+<sup><i>"Everyone lives in their own world"</i>, Me, digital, 2021</sup>
+</p>
 
 <p></p>
 
-[`࿋`](http://bdsmtest.org/r/ZY2t2An7)
+
+
+<marquee direction="right">
+<a href="http://bdsmtest.org/r/ZY2t2An7"><button>&#4043;</button></a>
+</marquee>
 
 
 
