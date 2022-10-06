@@ -41,7 +41,7 @@
 <p align=center></p>
 
 <p align=center>
-<img width=350 src="https://pbs.twimg.com/media/EzQAGKlVkAwFiFj?format=jpg&name=large">  
+<img width=350 src="https://pbs.twimg.com/media/EzQAGKlVkAwFiFj?format=jpg&name=large">  <br>
 <sup><i>"Everyone lives in their own world"</i>, Me, digital, 2021</sup>
 </p>
 
@@ -50,7 +50,7 @@
 
 
 <marquee direction="right">
-<a href="http://bdsmtest.org/r/ZY2t2An7"><button>&#4043;</button></a>
+<a href="http://bdsmtest.org/r/ZY2t2An7">&#4043;</a>
 </marquee>
 
 
