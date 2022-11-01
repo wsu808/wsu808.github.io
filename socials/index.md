@@ -8,9 +8,10 @@
 	<img src="./character_list.svg" alt="Character Stats">
 </p>
 
-</details>
+</details><br/>
 
 🎖️Awarded the DiamondNoNutter in 2021  
+
 🗣️ 🇵🇱🇬🇧
 
 
