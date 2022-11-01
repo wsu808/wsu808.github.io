@@ -10,6 +10,10 @@
 
 </details>
 
+🎖️Awarded the DiamondNoNutter in 2021  
+🗣️ 🇵🇱🇬🇧
+
+
 ---
 
 <h1 align="center"><a href="https://myanimelist.net/profile/wasu-kun">MyAnimeList</a></h1>
