@@ -78,7 +78,7 @@
                     const birthday = "2001-01-11"; // Change this to the birthday date
                     const age = calculateAge(birthday);
                     const ageText = document.getElementById('ageText');
-                    ageText.textContent = `You are ${age} years old.`;
+                    ageText.textContent = `LEVEL: ${age}`;
                 }
 
                 window.onload = displayAge;
